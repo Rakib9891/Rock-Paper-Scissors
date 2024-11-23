@@ -13,8 +13,8 @@ let mode = document.querySelector("#theme");
 let body = document.querySelector("body");
 let theme = () => {
   body.classList.toggle("dark");
-mode.addEventListener("click",theme);
 }
+mode.addEventListener("click",theme);
 
 let uWin = 0;
 let cWin = 0;
