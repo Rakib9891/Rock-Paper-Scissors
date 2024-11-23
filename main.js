@@ -14,6 +14,8 @@ let body = document.querySelector("body");
 let theme = () => {
   body.classList.toggle("dark");
 }
+
+//coment
 mode.addEventListener("click",theme);
 
 let uWin = 0;
